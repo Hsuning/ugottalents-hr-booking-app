@@ -1,0 +1,34 @@
+
+----UgotTalent.Controleur----
+
+#UgotTalent (main)
+- Pour lancer le programme avec GUI_0_Start.java
+
+#changePanel
+- Pour changer les écrans (JPanel) avec des buttons
+
+----UgotTalent.Vue----
+
+#GUI_0_Start
+- La première frame qui contient le panel GUI_1_Accueil
+
+#GUI_1_Accueil
+- Tous les label, textField, button sont attributs => private
+- Dans constructeur:
+	*this.setLayout(new GridBagLayout());  => diviser le panel en plusiers lignes et colonnes
+	*Regarder l'image GridBagConstraints dans Images de projet
+	*Regarder des commentaires
+	*Si t'as mis par exemple gridwidth/weighty en 3/20, il faut pas oublier de le mettre en 1/1 après.
+	
+#MyJButton
+- servir à créer des buttons dans JPanel
+- Dans MyJButton, on a ajouté ActionListener dans le button
+
+#MyJPanel
+- servir à créer des panels pour le GUI
+
+#MyJPanel2
+- servir à ajouter l'image
+
+#MyTitre
+- servir à créer des titres (avec le même police de caractères)
